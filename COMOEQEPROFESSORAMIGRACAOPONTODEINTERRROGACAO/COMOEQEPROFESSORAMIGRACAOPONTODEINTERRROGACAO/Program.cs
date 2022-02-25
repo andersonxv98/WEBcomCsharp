@@ -1,5 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+using COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO.Models;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddMvc();
+builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("conexao");
+builder.Services.AddDbContext<Contexto>(options => options.UseSqlServer(connectionString));
 // Add services to the container.
 builder.Services.AddRazorPages();
 
@@ -21,5 +28,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPsTMT6A60dWE2QPDXg+6nb4mp9r+F2Y8jnhhFK3wFULc2SzwCP6SOUtT8Xlrd9Iu2oLwULj4S7iy1qPimM/Uw==",
+  "dgSpecHash": "ZLCZQYOF6in85U0H7V9FXm5SZtSD9GqGexazgxk1nIETT/UXIheluXQyBSm74puncK1b62I4piHiFDanz9YN7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Documents\\WEBcomCsharp\\COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO\\COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO\\COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO.csproj",
+  "projectFilePath": "E:\\Eletivall\\WEBcomCsharp\\COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO\\COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO\\COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
