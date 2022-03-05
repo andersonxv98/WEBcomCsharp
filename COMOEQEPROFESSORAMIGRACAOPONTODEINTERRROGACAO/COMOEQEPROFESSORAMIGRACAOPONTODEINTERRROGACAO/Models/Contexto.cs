@@ -13,5 +13,6 @@ namespace COMOEQEPROFESSORAMIGRACAOPONTODEINTERRROGACAO.Models
 
         public  DbSet<Categoria> Categorias { get; set; }
         //injeção de dependencia tira a responsabilidade da classe de instanciar objetos, deixando a cargo da aplicação essa função(de instanciar o objeto);
+        public DbSet<Cartas> Cartas { get; set; }
     }
 }
